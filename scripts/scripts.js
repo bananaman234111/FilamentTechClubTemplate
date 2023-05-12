@@ -4,7 +4,7 @@ function changeColor() {
     var newColor = selectNewColor(currentColor);
     document.getElementById("helloworld").style.color = newColor;
 }
-function selectNewColor() {
+function selectNewColor(currentColor) {
     var newColor = "";
 
     if (currentColor === "") {
