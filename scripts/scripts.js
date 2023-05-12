@@ -2,9 +2,10 @@
 function changeColor() {
     var currentColor = document.getElementById("helloworld").style.color;
     var newColor = selectNewColor(currentColor);
+    document.getElementById("helloworld").style.color = newColor;
 }
 function selectNewColor() {
-    variable newColor = "";
+    var newColor = "";
 
     if (currentColor === "") {
         newColor = "newColor";
